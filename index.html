@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Foogle</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <section class="navbar__section navbar__section--left">
+          <a class="navbar__item" href="#">About</a>
+          <a class="navbar__item" href="#">Store</a>
+        </section>
+        <section class="navbar__section navbar__section--right">
+          <a class="navbar__item" href="#">Gmail</a>
+          <a class="navbar__item" href="#">Images</a>
+          <img
+            alt="profile-pic"
+            class="navbar__item navbar__img"
+            src="./assets/profilepic.png"
+          />
+        </section>
+      </nav>
+    </header>
+    <main class="content">
+      <h1 class="content__header">
+        <span class="content__header--blue">F</span>
+        <span class="content__header--red">o</span>
+        <span class="content__header--yellow">o</span>
+        <span class="content__header--blue">g</span>
+        <span class="content__header--green">l</span>
+        <span class="content__header--red">e</span>
+      </h1>
+      <form
+        class="content__form"
+        action="https://www.google.com/search"
+        method="get"
+      >
+        <input type="text" name="q" autocomplete="off" autofocus />
+        <div>
+          <input type="submit" value="Google Search" />
+          <a href="https://www.google.com/search?q=taylor+swift+screaming+goat">
+            <button type="button">I'm feeling lucky</button>
+          </a>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <nav class="navbar">
+        <section class="navbar__section navbar__section--left">
+          <a class="navbar__item" href="#">Advertising</a>
+          <a class="navbar__item" href="#">Business</a>
+        </section>
+        <section class="navbar__section navbar__section--right">
+          <a class="navbar__item" href="#">Privacy</a>
+          <a class="navbar__item" href="#">Terms</a>
+          <a class="navbar__item" href="#">Settings</a>
+        </section>
+      </nav>
+    </footer>
+  </body>
+</html>
